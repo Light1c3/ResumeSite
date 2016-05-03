@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ReactStarter
 ====
 
@@ -26,3 +27,7 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 	> npm install
 	> gulp
 ```
+=======
+# ResumeSite
+My Resume Webiste
+>>>>>>> 96353101caef72e7cc81035eb7bf899855fc3f3f
