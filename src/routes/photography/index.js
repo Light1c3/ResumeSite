@@ -8,11 +8,11 @@
  */
 
 import React from 'react';
-import Contact from './Contact';
+import Contact from './Photography';
 
-export const path = '/contact';
+export const path = '/Photography';
 export const action = async (state) => {
-  const title = 'Contact Us';
+  const title = 'Photo Gallery';
   state.context.onSetTitle(title);
   return <Contact title={title} />;
 };

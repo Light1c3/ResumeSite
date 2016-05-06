@@ -18,9 +18,9 @@ function Navigation({ className }) {
     <div className={cx(s.root, className)} role="navigation">
       <Link className={s.link} to="/about">About</Link>
       <span className={s.spacer}> | </span>
-      <Link className={s.link} to="/contact">Contact</Link>
+      <Link className={s.link} to="/photography">Photography</Link>
       <span className={s.spacer}> | </span>
-      <Link className={s.link} to="/login">Log in</Link>
+      <Link className={s.link} to="/portfolio">Portfolio</Link>
     </div>
   );
 }

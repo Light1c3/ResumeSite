@@ -58,8 +58,7 @@ class App extends Component {
       <div>
         <Header />
         {this.props.children}
-        <Feedback />
-        <Footer />
+        <Footer style={{align: 'bottom'}}/>
       </div>
     ) : this.props.children;
   }

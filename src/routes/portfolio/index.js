@@ -8,11 +8,11 @@
  */
 
 import React from 'react';
-import Login from './Login';
+import Login from './Portfolio';
 
-export const path = '/login';
+export const path = '/Portfolio';
 export const action = async (state) => {
-  const title = 'Log In';
+  const title = 'Portfolio';
   state.context.onSetTitle(title);
   return <Login title={title} />;
 };
