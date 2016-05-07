@@ -43,3 +43,20 @@
 .spacer {
   color: rgba(255, 255, 255, .3);
 }
+
+.mobileNav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktopNav {
+    display: none;
+  }
+  .mobileNav {
+    display: block;
+  }
+  .menuButton {
+    height: 38px;
+    width: 38px;
+  }
+}

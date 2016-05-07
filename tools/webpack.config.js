@@ -81,6 +81,20 @@ const config = {
           'postcss-loader?parser=postcss-scss',
         ],
       }, {
+        test: /bootstrap\.css$/,
+        loaders: [
+          'isomorphic-style-loader',
+          `css-loader?${JSON.stringify({
+            sourceMap: DEBUG,
+            // CSS Modules https://github.com/css-modules/css-modules
+            modules: false,
+            localIdentName: DEBUG ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
+            // CSS Nano http://cssnano.co/options/
+            minimize: !DEBUG,
+          })}`,
+          'postcss-loader?parser=postcss-scss',
+        ],
+      }, {
         test: /\.json$/,
         loader: 'json-loader',
       }, {

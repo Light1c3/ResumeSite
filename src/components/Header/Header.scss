@@ -12,6 +12,8 @@
 $brand-color: #61dafb;
 
 .root {
+  padding-right: 1em;
+  padding-left: 1em;
   background: #373277;
   color: #fff;
 }
@@ -56,8 +58,6 @@ $brand-color: #61dafb;
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .nav {
-    display: none;
-  }
+@media screen and (max-width: 750px) {
+  .brand margin-right: 1em;
 }
